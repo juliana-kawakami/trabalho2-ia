@@ -1,0 +1,127 @@
+Indeterminacy_in_Affective_Computing_Considering_Meaning_and_Context_in_Data_Collection_Practices.pdf;;Index Terms —Affective Computing, Ambiguity, Subjectivity,
+Context-awareness, User-modeling, Date Collection
+I. I NTRODUCTION
+One of the main goals in Affective Computing research
+isAutomatic Affect Prediction (AAP) – providing computers
+with a human-like ability to detect or anticipate affective
+states from multi-modal sensor data [1].;;Finally, we use our framework for 2) discussing examples
+of context-sensitivity-related challenges for addressing QIs in
+data collection setups.;;These models are typically constructed
+using supervised machine-learning algorithms, which rely heavily
+on labeled training datasets.;;Qualities of Indeterminacy (QIs) :describe a series of
+inherent characteristics of Affective Meaning, contributing to
+its variability, complexity, and interpretative diversity.
+Extracting_the_features_of_emotion_from_EEG_signals_and_classify_using_affective_computing.pdf;;The row of the matrix multiplied with the predictedvalues gives the target value S.
+The purpose of the classiﬁer is to locate the response centers
+of each emotion.;;Abstract —The extraction of features, for the recognition of
+affective states through various means such as gestures of the
+body, facial images and electroencephalogram (EEG), is very
+important in affective computing.;;Features of EEG data are extracted using
+independent component analysis (ICA), and are classiﬁed usingK Nearest Neighbor (KNN) algorithm.;;A novel method for emotion recognition from the EEG
+data is presented in the subsequent sections.
+The_Appliance_of_Affective_Computing_in_Man-Machine_Dialogue_Assisting_Therapy_of_Having_Autism.pdf;;Picard team designed an emotional dialogue system, 
+virtual human "Laura" can communicate with users through 
+text interface experience physical exercise: if exercises 
+complete objectives, Laura will commend him; if exercises 
+not complete objectives, Laura will encourage him.;;How to combine affective computing 
+with man-machine dialogue is a significative research problem 
+so that it can cause emotional communion when the computers 
+are used by children.;;I try to introduce affective computing in 
+the field of human-computer dialogue, identify and extract 
+emotional information through the tested object, give the 
+emotional intervention and, based on the specific research 
+outcome, indicate its feasibility and effectiveness.;;
+Ethical_Considerations_on_Affective_Computing_An_Overview.pdf;;It aims to reflect the complexities inherent in both the technol-
+ogy and current ethical discussions.;;Common images of the issues
+invite oversimplification and offer a limited understanding of
+the moral consequences and ethical tensions.;;However,
+the limits of recognition technology mean that actions are
+likely to be based on impoverished representations of peo-
+ple’s affective state, particularly with certain groups; systems
+are liable to arouse feelings that are positive, but not well
+grounded in reality, affectively engaging systems can become
+addictive and manipulative, and they confer dangerous power
+on those who control the technology.;;We offer an overview of
+those and other particular ethical issues, positive and nega-
+tive, which arise from the current state of affective computing.
+Context-Dependent_Deep_Learning_for_Affective_Computing.pdf;;Another set of works modified pre-trained languagemodels’ pre-training objective by incorporating sentiment se-
+mantics [13] or by using auxiliary sentiment-related objectives
+such as sentiment word masking and sentiment word predic-
+tion [14] to improve fine-grained sentiment classification.;;Yet these
+models face a number of challenges such as generalizing to
+different test conditions and predicting fine-grained emotions to
+name a few.;;For instance, take the case of text-based
+emotion recognition systems where numerous approaches have
+been proposed to date [5], [6], however, most of these works
+focus on detecting a limited number of emotions comprising
+of 6 to 8 emotions.;;
+Affective_Game_Computing_A_Survey.pdf;;Importantly, the context of the game environment, the
+game genre, the form of interfacing, the number of play-
+ers, potential social aspects of the game, and the overall
+objective of the game are foundational and they impact any
+other in-game elicitor covered here.;;This article concludes with a
+discussion on the current limitations of affective game com-
+puting and our vision for the most promising future research
+directions in the field.;;ABSTRACT |This article surveys the current state-of-the-art
+in affective computing (AC) principles, methods, and tools as
+applied to games.;;In addition, we provide a taxonomy of terms, methods, and
+approaches used across the four phases of the affective game
+loop and situate the field within this taxonomy.
+Continual_Learning_for_Adaptive_Affective_Human-Robot_Interaction.pdf;;Driven by advancements in affective computing and deep
+learning, social robots aim to recognise affective, social clues
+such as emotion for interaction.;;Not to
+mention that most existing deep learning methods and datasets
+ignore the important variability factors such as socio-cultural
+dynamics [12], the spontaneity of facial behaviour [13], and
+interpersonal traits on expressiveness, gender, and age.;;Existing deep learning based
+affective computing models for human-robot interaction are
+based on static data distribution; however, in the ever-changing
+real-world environment, the static nature of data distributions
+gets invalid.;;This research will contribute to the domain of continual
+learning.
+On_Prompt_Sensitivity_of_ChatGPT_in_Affective_Computing.pdf;;{base prompt}
+Python Expert You are a world-class expert at Python programming, your main objective is trying to help in Python
+programming tasks.;;We perform our
+evaluation on ChatGPT within the scope of affective computing
+on three major problems, namely sentiment analysis, toxicity
+detection, and sarcasm detection.;;Despite the
+existence of some prompting techniques, the field is still rapidly
+evolving and many prompting ideas still require investigation.;;Helpfulness is
+defined as how well does the model follow the instructions
+given in the prompt, which results in a cooperative response
+to the questions (regardless of correctness).We select three affective computing tasks for our method,
+since they have clearly defined binary labels, hence making it
+clear to define correctness and helpfulness; this contributes di-
+rectly to the ability of running a large scale Monte Carlo anal-
+ysis to examine the different generation parameters.
+Ethical_Risks_Concerns_and_Practices_of_Affective_Computing_A_Thematic_Analysis.pdf;;Our aim
+was to explore how the affective computing research community
+perceives risks and concerns related to ethics in this field, and
+how they attempt to address and mitigate these risks.;;Subsequently,
+we coded the data using Atlas.ti, to identify all mentions
+oflimitations ,risks/concerns , and mitigation strategies.;;•RQ2: What are approaches proposed by af-
+fective computing researchers to mitigate these
+risks?;;We report
+our findings of this thematic analysis along with an evaluation of
+the potential impact of the regulations such as The EU AI Act
+on the field of affective computing.
+Affective_Computing_as_a_Tool_for_Understanding_Emotion_Dynamics_from_Physiology_A_Predictive_Modeling_Study_of_Arousal_and_Valence.pdf;;Our work takes advantage of this opportunity 
+by using the Continuously Annotated Signals of Emotion 
+(CASE) dataset [7] and participating in the Emotion 
+Physiology and Experience Collaboration (EPiC) 2023 
+competition [8], aiming to bridge the gap between affective 
+computing and affective science by studying the temporal 
+dynamics of emotions.;;Our work takes advantage of this opportunity 
+by using the Continuously Annotated Signals of Emotion 
+(CASE) dataset [7] and participating in the Emotion 
+Physiology and Experience Collaboration (EPiC) 2023 
+competition [8], aiming to bridge the gap between affective 
+computing and affective science by studying the temporal 
+dynamics of emotions.;;Abstract — Affective computing has traditionally relied on 
+predictive models that use summary annotations to understand 
+emotions, an approach that often fails to capture the continuous 
+nature of emotions.;;Our contributions include the development and 
+comparison of predictive models for different affective 
+dimensions, demonstrating that arousal models outperform 
+valence models, a finding consistent with existing affective 
+science literature.

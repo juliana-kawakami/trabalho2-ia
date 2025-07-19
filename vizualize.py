@@ -29,13 +29,13 @@ def main():
     PDF_DIR = args.pdf_dir
     SAIDA_DIR = args.saida_dir
     os.makedirs(SAIDA_DIR, exist_ok=True)
-    print(f'✅ Lendo PDFs de "{PDF_DIR}" → salvando gráficos em "{SAIDA_DIR}"\n')
+    print(f' Lendo PDFs de "{PDF_DIR}" → salvando gráficos em "{SAIDA_DIR}"\n')
 
     # --- Carrega e processa o corpus ---
     resultado = analisar_corpus(PDF_DIR)
     pdf_paths = resultado.get('arquivos', [])
     if not pdf_paths:
-        print(f'⚠️  Nenhum PDF encontrado em "{PDF_DIR}".')
+        print(f'  Nenhum PDF encontrado em "{PDF_DIR}".')
         return
 
     raw_texts = []
@@ -75,7 +75,7 @@ def main():
         matches = re.findall(phrase_pattern, text, flags=re.IGNORECASE)
         phrase_counter.update([m.lower() for m in matches])
     techniques = [p for p, _ in phrase_counter.most_common(10)]
-    print('🔍 Técnicas extraídas:', techniques, '\n')
+    print(' Técnicas extraídas:', techniques, '\n')
 
     # contagem de presença por artigo
     tech_counter = Counter()
@@ -96,9 +96,9 @@ def main():
         out = os.path.join(SAIDA_DIR, 'techniques_frequency.png')
         plt.savefig(out)
         plt.close()
-        print(f'✔️  Gráfico de técnicas salvo em {out}')
+        print(f'  Gráfico de técnicas salvo em {out}')
     else:
-        print('⚠️  Sem técnicas para plotar.')
+        print('  Sem técnicas para plotar.')
 
     # Gráfico 2: Top 20 termos
     term_counter = Counter(all_tokens)
@@ -113,9 +113,9 @@ def main():
         out = os.path.join(SAIDA_DIR, 'top_terms.png')
         plt.savefig(out)
         plt.close()
-        print(f'✔️  Gráfico de termos mais frequentes salvo em {out}')
+        print(f'  Gráfico de termos mais frequentes salvo em {out}')
     else:
-        print('⚠️  Sem termos para plotar.')
+        print('  Sem termos para plotar.')
 
     # Gráfico 3: Word Cloud
     if top_terms:
@@ -128,9 +128,9 @@ def main():
         out = os.path.join(SAIDA_DIR, 'wordcloud_general.png')
         plt.savefig(out)
         plt.close()
-        print(f'✔️  Nuvem de palavras salva em {out}')
+        print(f'  Nuvem de palavras salva em {out}')
     else:
-        print('⚠️  Não foi possível gerar nuvem de palavras.')
+        print('  Não foi possível gerar nuvem de palavras.')
 
     # Gráfico 4: Evolução temporal dos top 5 termos
     years = sorted({int(y) for y in doc_years.values() if y.isdigit()})
@@ -153,9 +153,9 @@ def main():
         out = os.path.join(SAIDA_DIR, 'temporal_evolution.png')
         plt.savefig(out)
         plt.close()
-        print(f'✔️  Gráfico de evolução temporal salvo em {out}')
+        print(f'  Gráfico de evolução temporal salvo em {out}')
     else:
-        print('⚠️  Não foi possível gerar evolução temporal.')
+        print('  Não foi possível gerar evolução temporal.')
 
     # Gráfico 5: Top termos em "Future Work"
     future_keywords = [
@@ -179,9 +179,9 @@ def main():
         out = os.path.join(SAIDA_DIR, 'future_work_terms.png')
         plt.savefig(out)
         plt.close()
-        print(f'✔️  Gráfico de termos em "Future Work" salvo em {out}')
+        print(f'  Gráfico de termos em "Future Work" salvo em {out}')
     else:
-        print('⚠️  Não foram encontrados termos para "Future Work".')
+        print('  Não foram encontrados termos para "Future Work".')
 
 if __name__ == '__main__':
     # Garante que os recursos NLTK estejam disponíveis

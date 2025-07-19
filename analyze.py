@@ -11,6 +11,7 @@ import re
 
 # Garante download dos recursos do NLTK
 nltk.download('punkt')
+nltk.download('punkt_tab')
 nltk.download('stopwords')
 nltk.download('wordnet')
 
